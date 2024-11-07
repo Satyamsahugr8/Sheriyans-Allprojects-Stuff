@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy/Gilroy-Medium.ttf") format(truetype);
+    }
+
+@font-face {
+    font-family: "monument";
+    src: url("../fonts/Monument/MonumentExtended-Regular.otf") format(opentype);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vh;
+    /* background-color: lightblue; */
+    margin-bottom: 2vh;
+    background-color: lightgrey;
+}
+
+#c-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8vh;
+}
+
+#container {
+    padding: 10vh 20vh;
+}
+
+#teext {
+    padding: 5px;
+    width: 60%;
+    height: 40vh;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid #dadada;
+    outline-color: royalblue;
+    resize: none;
+}
+
+#txtcount {
+    display: flex;
+    gap: 2px;
+}

@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy/Gilroy-Medium.ttf') format(truetype);
+}
+ 
+@font-face {
+    font-family: 'monument';
+    src: url('../fonts/Monument/MonumentExtended-Regular.otf') format(opentype);
+}
+
+@font-face {
+    font-family: 'PPwoodland';
+    src: url('../fonts/PPWoodland/PPWoodland-Regular.ttf') format(opentype);
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    /* color: white; */
+}
+ 
+html ,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: #e3e3c4;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    padding: 5vw;
+    background-color: #556043;
+}
+
+/* #page2 h1 {
+    font-size:8vh;
+    line-height: 1.15;
+    font-weight: 900;
+} */
+
+#page2 h1 {
+    color: #434b43;
+    font-size: 4.5vw;
+    font-weight: 4 00;
+    text-align: center;
+    line-height: 4.8vw;
+    font-family: PPwoodland;
+}
+
+#page3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #e3e3c4;
+}

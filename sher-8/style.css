@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy/Gilroy-Medium.ttf") format(truetype);
+    }
+
+@font-face {
+    font-family: "monument";
+    src: url("../fonts/Monument/MonumentExtended-Regular.otf") format(opentype);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vh;
+    /* background-color: lightblue; */
+    margin-bottom: 2vh;
+    background-color: lightgrey;
+}
+
+#c-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8vh;
+}
+
+#container {
+    padding: 10vh 20vh;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    outline-color: lightsteelblue;
+    font-weight: 500;
+}
+
+.people {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.person {
+    /* padding-top: 4px; */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.img {
+    width: 10vw;
+    height: 10vw;
+    /* background-color: red; */
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    overflow: hidden;
+    /* background-image: url(https://images.unsplash.com/photo-1548612621-77df2f2c5246?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+}
+
+.img img {
+    /* padding: 2px; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

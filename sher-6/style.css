@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy/Gilroy-Medium.ttf") format(truetype);
+    }
+
+@font-face {
+    font-family: "monument";
+    src: url("../fonts/Monument/MonumentExtended-Regular.otf") format(opentype);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vh;
+    background-color: lightblue;
+    margin-bottom: 2vh;
+}
+
+#c-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8vh;
+}
+
+#center {
+    height: 100px;
+    width: 100%;
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 2vw; */
+    /* background-color: blue; */
+}
+
+button {
+    padding: 1vh;
+    border: 1px dotted black;
+    border-radius: 10%;
+    margin: 2vw;
+}
+
+#main {
+    padding: 4vh;
+}
+
+#tabs {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2vw;
+}
+
+.tab {
+    padding: 12px 22px;
+    background-color: #e999; 
+    border: 2px solid #dadada; 
+    border-radius: 4px; 
+    font-weight: 700;
+}
+
+#tabsDetails h3 {
+    margin-top: 2vh;
+    width: 50%;
+    display: none;
+} 
+

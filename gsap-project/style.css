@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy/Gilroy-Medium.ttf") format(truetype);
+    }
+
+@font-face {
+    font-family: "monument";
+    src: url("../fonts/Monument/MonumentExtended-Regular.otf") format(opentype);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: #fff;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/*  */
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vh 3vh;
+    height: 6vh;
+    /* background-color: lightgrey; */
+}
+
+#nav-part2 {
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+}
+
+#nav h4 {
+    font-size: 2.3vh;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* #center {
+    height: 500px;
+    width: 100%;
+    background-color: #6b6565;
+}
+
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+}
+
+#box2 {
+    height: 100px;
+    width: 100px;
+    background-color: royalblue;
+} */
+
+#main {
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+#main h1 {
+    font-size: 15vh;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 12vh;
+    /* background-color: red; */
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 9;
+}
+
+
+#main h1:nth-child(2) {
+    margin-top: 16vh;
+}
+
+#main h1:nth-child(3) {
+    text-align: center;
+}
+
+#main h1:nth-child(4) {
+    text-align: center;
+}
+
+#img1 {
+    rotate: 8deg;
+}
+
+#img2 {
+    rotate: 16deg;
+}
+
+
+#main img {
+    height: 400px;
+    position: absolute;
+    top: 13%;
+    left: 38%;
+}
+
+

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy/Gilroy-Medium.ttf") format(truetype);
+    }
+
+@font-face {
+    font-family: "monument";
+    src: url("../fonts/Monument/MonumentExtended-Regular.otf") format(opentype);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vh;
+    background-color:lightgrey;;
+    margin-bottom: 2vh;
+}
+
+#c-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8vh;
+}
+
+#center {
+    height: 100px;
+    width: 100%;
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 1vh;
+    border: 1px dotted black;
+    border-radius: 10%;
+    margin: 2vw;
+}
+
+
+#downloadcapsulet {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate (-50%, - 50%); 
+    width: 30vh; 
+    height: 1vh;
+    background-color: #dadada; 
+    border-radius: 100px;
+}
+
+#progress {
+    width: 0%;
+    height: 100%;
+    border-radius: 100px;
+    background-color: rgb(100, 161, 9);
+}
